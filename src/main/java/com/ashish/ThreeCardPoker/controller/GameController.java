@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class GameController {
-    @RequestMapping("/hello")
+    @RequestMapping("/")
     public String Calc(Model model)
     {
         return "helloworld";
